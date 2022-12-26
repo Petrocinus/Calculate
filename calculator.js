@@ -5,7 +5,7 @@ app.get("/", function(require, response){
     response.sendFile(__dirname+"/index.html");
 });
 
-app.post("/", function(require, response){
+app.post("/index.html", function(require, response){
     response.send("Oooooooops");
 });//Должно выводиться на экран после calculate 
 
